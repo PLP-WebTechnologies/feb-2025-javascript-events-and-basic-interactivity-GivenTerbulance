@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive UI Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive UI Project</h1>
+
+  <section>
+    <h2>Event Handling </h2>
+    <button id="clickBtn">Click Me</button>
+    <button id="hoverBtn">Hover Over Me</button>
+    <input type="text" id="keyInput" placeholder="Type something...">
+    <button id="secretBtn">Secret Action</button>
+  </section>
+
+  <section>
+    <h2>Interactive Elements </h2>
+    <button id="colorChangeBtn">Change My Color</button>
+    <div class="slideshow">
+      <img id="galleryImage" src="https://via.placeholder.com/300/ff7f7f" alt="Gallery Image">
+      <button id="nextImg">Next Image</button>
+    </div>
+    <div class="tabs">
+      <button class="tab" data-tab="1">Tab 1</button>
+      <button class="tab" data-tab="2">Tab 2</button>
+      <div id="tab1" class="tab-content">This is content for Tab 1.</div>
+      <div id="tab2" class="tab-content" style="display:none">This is content for Tab 2.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Form Validation </h2>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Email Address" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="formFeedback"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
